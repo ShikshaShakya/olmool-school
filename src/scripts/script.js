@@ -24,15 +24,15 @@ const navLinks = document.querySelectorAll("[data-nav-link]");
 const overlay = document.querySelector("[data-overlay]");
 
 const toggleNavbar = function () {
-  navbar.classNameList.toggle("active");
-  overlay.classNameList.toggle("active");
+  navbar.classList.toggle("active");
+  overlay.classList.toggle("active");
 };
 
 addEventOnElem(navTogglers, "click", toggleNavbar);
 
 const closeNavbar = function () {
-  navbar.classNameList.remove("active");
-  overlay.classNameList.remove("active");
+  navbar.classList.remove("active");
+  overlay.classList.remove("active");
 };
 
 addEventOnElem(navLinks, "click", closeNavbar);
@@ -46,11 +46,11 @@ const backTopBtn = document.querySelector("[data-back-top-btn]");
 
 window.addEventListener("scroll", function () {
   if (window.scrollY >= 100) {
-    header.classNameList.add("active");
-    backTopBtn.classNameList.add("active");
+    header.classList.add("active");
+    backTopBtn.classList.add("active");
   } else {
-    header.classNameList.remove("active");
-    backTopBtn.classNameList.remove("active");
+    header.classList.remove("active");
+    backTopBtn.classList.remove("active");
   }
 });
 
@@ -63,7 +63,7 @@ const sections = document.querySelectorAll("[data-section]");
 const reveal = function () {
   for (let i = 0; i < sections.length; i++) {
     if (sections[i].getBoundingClientRect().top < window.innerHeight / 2) {
-      sections[i].classNameList.add("active");
+      sections[i].classList.add("active");
     }
   }
 };

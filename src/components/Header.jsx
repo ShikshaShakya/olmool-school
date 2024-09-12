@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -26,40 +27,40 @@ const Header = () => {
 
             <ul className="navbar-list">
               <li className="navbar-item">
-                <a href="#home" className="navbar-link" data-nav-link>
+                <Link to="/" className="navbar-link" data-nav-link>
                   Home
-                </a>
+                </Link>
               </li>
 
               <li className="navbar-item">
-                <a href="#about" className="navbar-link" data-nav-link>
+                <a href="/moreabout" className="navbar-link" data-nav-link>
                   About Us
                 </a>
               </li>
 
               <li className="navbar-item">
-                <a href="#course" className="navbar-link" data-nav-link>
+                <Link to="/team" className="navbar-link" data-nav-link>
                   Our Team
-                </a>
+                </Link>
               </li>
 
               <li className="navbar-item">
-                <a href="#blog" className="navbar-link" data-nav-link>
+                <Link to="/events" className="navbar-link" data-nav-link>
                   Events
-                </a>
+                </Link>
               </li>
 
               <li className="navbar-item">
-                <a href="#" className="navbar-link" data-nav-link>
-                  Contact Us
-                </a>
+                <Link to="/calendar" className="navbar-link" data-nav-link>
+                  Calendar
+                </Link>
               </li>
             </ul>
           </nav>
 
-          <a href="#" className="btn btn-primary">
+          <Link to="/registration" className="btn btn-primary">
             Sign Up
-          </a>
+          </Link>
 
           <button
             className="nav-toggle-btn"

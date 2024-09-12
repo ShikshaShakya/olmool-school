@@ -1,0 +1,148 @@
+.calendar-div {
+  margin-top: 11vh;
+}
+
+.fc .fc-daygrid-day-events {
+  margin-top: -5px;
+}
+
+/* Calendar container styling */
+.calendar-container {
+  padding: 20px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.calendar-title {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.calendar {
+  width: 100%;
+}
+
+/* Adjust the FullCalendar container */
+.full-calendar {
+  height: 90vh;
+  max-width: 100%;
+}
+
+/* Make sure event text doesn't overflow and adjusts to the container */
+.fc .fc-event {
+  font-size: 1rem; /* Reduce font size for better fitting */
+  white-space: normal; /* Ensure text wraps inside the event boxes */
+  line-height: 1.2; /* Adjust line height for readability */
+  overflow: hidden;
+  text-overflow: ellipsis; /* Add ellipsis (...) for text overflow */
+  padding: 2px;
+}
+
+.fc .fc-event-title {
+  font-size: 1rem; /* Make sure event title is responsive */
+}
+
+/* Responsive styles for mobile devices */
+@media (max-width: 768px) {
+  .calendar-title {
+    font-size: 1.5rem;
+  }
+
+  .calendar-container {
+    padding: 10px;
+  }
+
+  /* Adjust the FullCalendar to take less space on smaller screens */
+  .full-calendar {
+    height: 80vh;
+    width: 100%;
+  }
+
+  .fc .fc-event {
+    font-size: 0.9rem; /* Reduce font size on smaller screens */
+    white-space: normal;
+    line-height: 1.2;
+    padding: 2px;
+  }
+
+  .fc .fc-daygrid-day {
+    padding: 3px; /* Adjust padding for day cells */
+  }
+}
+
+@media (max-width: 480px) {
+  .calendar-title {
+    font-size: 1.2rem;
+  }
+
+  .calendar-container {
+    padding: 5px;
+  }
+
+  .full-calendar {
+    height: 70vh;
+    width: 100%;
+  }
+
+  /* Make event text more compact on small devices */
+  .fc .fc-event {
+    font-size: 0.8rem; /* Further reduce font size for smaller devices */
+    line-height: 1.1;
+    padding: 1px;
+  }
+
+  /* Adjust full-calendar properties on small screens */
+  .fc .fc-daygrid-day {
+    padding: 2px; /* Decrease padding on each calendar cell */
+  }
+
+  .fc .fc-header-toolbar {
+    flex-wrap: wrap; /* Allow header elements to wrap on smaller screens */
+  }
+
+  /* Ensure long event titles wrap properly */
+  .fc .fc-event-title {
+    font-size: 0.85rem; /* Reduce event title font size */
+    white-space: normal; /* Allow title to wrap */
+    line-height: 1.2;
+  }
+}
+
+/* Styles specifically for screens between 300px and 400px */
+@media (max-width: 400px) {
+  .calendar-title {
+    font-size: 1rem;
+  }
+
+  .calendar-container {
+    padding: 5px;
+  }
+
+  .full-calendar {
+    height: 65vh;
+    width: 100%;
+  }
+
+  .fc .fc-event {
+    font-size: 0.75rem; /* Reduce font size for very small devices */
+    line-height: 1.1; /* Keep text compact */
+    padding: 1px; /* Minimal padding for better fit */
+  }
+
+  /* Ensure that long event titles wrap and display properly */
+  .fc .fc-event-title {
+    font-size: 0.75rem;
+    white-space: normal;
+    line-height: 1.1;
+  }
+
+  /* Adjust calendar cells for small screens */
+  .fc .fc-daygrid-day {
+    padding: 1px; /* Minimal padding for very small cells */
+  }
+
+  .fc .fc-header-toolbar {
+    flex-wrap: wrap; /* Allow header elements to stack on smaller screens */
+  }
+}

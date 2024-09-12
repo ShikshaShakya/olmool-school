@@ -4,12 +4,7 @@ const Hero = () => {
   return (
     <main>
       <article>
-        <section
-          className="section hero"
-          aria-label="hero"
-          id="home"
-          data-section
-        >
+        <section className="section hero" aria-label="hero" id="home">
           <div className="container">
             <p className="hero-subtitle">inspire & empower</p>
 

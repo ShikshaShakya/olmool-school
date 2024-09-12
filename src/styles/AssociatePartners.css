@@ -1,0 +1,47 @@
+.partners-banner {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  background-color: #f7f5f3;
+  margin-top: 10vh;
+}
+
+.partners-track {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  animation: scroll 20s linear infinite;
+}
+
+.partner-logo {
+  flex: 0 0 auto;
+  margin: 0 20px;
+}
+
+.partner-logo img {
+  width: 73px;
+  height: auto;
+  object-fit: contain;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .partner-logo img {
+    width: 10vw;
+  }
+}
+
+@media (max-width: 480px) {
+  .partner-logo img {
+    width: 80px;
+  }
+}
