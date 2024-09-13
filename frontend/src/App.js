@@ -11,6 +11,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import Approach from "./components/Approach";
 import AssociatePartners from "./components/AssociatePartners";
 import EventCalendar from "./components/EventCalendar";
+import React from "react";
 
 function App() {
   return (
