@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import about1 from "../assets/about1.jpg";
 
 const AboutIntro = () => {
   return (
@@ -7,7 +8,7 @@ const AboutIntro = () => {
       <div class="container">
         <div class="about-banner img-holder">
           <img
-            src="./assets/images/about-banner.jpg"
+            src={about1}
             width="470"
             height="580"
             loading="lazy"
@@ -21,24 +22,26 @@ const AboutIntro = () => {
         </div>
 
         <div class="about-content">
-          <p class="section-subtitle">25+ Years Of Experience</p>
+          <p class="section-subtitle">10+ Mentors on Executive Board</p>
 
           <h2 class="h2 section-title">
-            We have expert instructors for our students.
+            Esteemed guests, educators, students, and sports enthusiasts
           </h2>
 
           <p class="section-text">
-            Lorem Ipsum is simply dummy text the printing and typesetting
-            standard dummy text ever since the 150 when an unknown printe
-            specimen book has survived centuries.
+            It is with great enthusiasm that SGO address you today on the
+            occasion of unique mega sports event. This event symbolizes more
+            than just competition it embodies the spirit of unity, perseverance,
+            and excellence that sports bring into our lives.
           </p>
 
           <h3 class="about-h3">20+ Events</h3>
 
           <p class="section-text">
-            Lorem Ipsum is simply dummy text the printing and typesetting
-            standard dummy text ever since the 150 when an unknown printe
-            specimen book has survived centuries.
+            Join us for an exciting journey at the School Games Olympiad,
+            featuring over 20+ thrilling sports events where students showcase
+            their talents, determination, and team spirit. Don't miss out on
+            this incredible celebration of athletic excellence!
           </p>
         </div>
       </div>

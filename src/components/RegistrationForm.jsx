@@ -4,7 +4,7 @@ import "../styles/RegistrationForm.css";
 const RegistrationForm = () => {
   return (
     <div className="form-container" id="registration">
-      <h2>Hey, Welcome</h2>
+      <h2>Hey There, Welcome!</h2>
       <form>
         <div className="form-group">
           <label htmlFor="eventName">Event Name:</label>

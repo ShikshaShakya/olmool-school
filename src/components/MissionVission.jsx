@@ -14,10 +14,11 @@ const MissionVission = () => {
               <div className="card-icon">
                 <img
                   src={visionsvg}
-                  width="60"
-                  height="60"
+                  width="50"
+                  height="50"
                   loading="lazy"
-                  alt="Women’s Course"
+                  alt="Our Mission"
+                  className="mission-img"
                 />
               </div>
 
@@ -28,13 +29,11 @@ const MissionVission = () => {
               </h3>
 
               <p className="card-text">
-                inspire and empower young students through sports, fostering the
+                Inspire and empower young students through sports, fostering the
                 values of excellence, friendship, and respect. These games aim
                 to promote physical education, healthy competition, and
                 teamwork, while encouraging students to develop a lifelong love
-                for sports. School Olympic Games seek to nurture talent, build
-                character promote the Olympic spirit of unity and fair play,
-                contributing to the holistic development of the next generation.
+                for sports.
               </p>
 
               {/* <a href="#" class="btn btn-secondary">
@@ -51,7 +50,8 @@ const MissionVission = () => {
                   width="60"
                   height="60"
                   loading="lazy"
-                  alt="Basic Course"
+                  alt="Executive Board"
+                  className="executive-img"
                 />
               </div>
 
@@ -65,10 +65,7 @@ const MissionVission = () => {
                 Comprised of experienced leaders, the board ensures the
                 strategic direction, governance, and long-term success of our
                 School Olympic Games. The Executive Board plays a pivotal role
-                in steering the vision and mission of our organization.
-                Comprised of experienced leaders, the board ensures the
-                strategic direction, governance, and long-term success of our
-                School Olympic Games.
+                in steering the vision and mission of the School Olympic Games.
               </p>
 
               <Link to="/team" class="btn btn-secondary">
@@ -85,7 +82,8 @@ const MissionVission = () => {
                   width="60"
                   height="60"
                   loading="lazy"
-                  alt="Men’s Course"
+                  alt="Our Vision"
+                  className="vision-img"
                 />
               </div>
 
@@ -99,10 +97,7 @@ const MissionVission = () => {
                 The vision of School Olympic Games is to create a vibrant and
                 inclusive sporting culture within educational institutions,
                 where every student has the opportunity to discover and develop
-                their athletic potential. Through these games, the vision is to
-                cultivate future leaders who embody the Olympic ideals of
-                excellence, respect, and global friendship, contributing to a
-                more active, healthy, and united society.
+                their athletic potential.
               </p>
 
               {/* <a href="#" className="btn btn-secondary">

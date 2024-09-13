@@ -17,6 +17,7 @@ function App() {
     <Router>
       <ScrollToTop />
       <Header />
+
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/team" element={<ExecutiveBoard />} />

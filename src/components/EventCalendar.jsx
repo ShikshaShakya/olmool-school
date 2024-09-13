@@ -56,9 +56,9 @@ const EventCalendar = () => {
             center: "title",
             end: "dayGridMonth,timeGridWeek,timeGridDay",
           }}
-          height={"90vh"} // You can adjust this dynamically
-          dayMaxEventRows={2} // Limit max event rows per day for better responsiveness
-          aspectRatio={1.35} // Makes the calendar's shape more compact
+          height={"90vh"}
+          dayMaxEventRows={2}
+          aspectRatio={1.35}
           events={eventsData}
           fixedWeekCount={false}
           eventClick={(info) => {

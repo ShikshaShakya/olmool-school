@@ -1,4 +1,50 @@
 import React from "react";
+import event1 from "../assets/100m.jpg";
+import event2 from "../assets/200m.jpg";
+import event3 from "../assets/400m.jpg";
+import event4 from "../assets/100x400.jpg";
+import event5 from "../assets/110m.jpg";
+import event6 from "../assets/longjump.jpg";
+import event7 from "../assets/tripplejump.jpg";
+import event8 from "../assets/javelin.jpg";
+import event9 from "../assets/discus.jpg";
+import event10 from "../assets/archery.jpg";
+import event11 from "../assets/badminton.jpg";
+import event12 from "../assets/basketball.jpg";
+import event13 from "../assets/boxing.jpg";
+import event14 from "../assets/chess.jpg";
+import event15 from "../assets/cricket.jpg";
+import event16 from "../assets/football.jpg";
+import event17 from "../assets/kabaddi.jpg";
+import event18 from "../assets/karate.jpg";
+import event19 from "../assets/khokho.jpeg";
+import event20 from "../assets/shooting.jpg";
+import event21 from "../assets/squash.jpeg";
+import event22 from "../assets/swimming.jpg";
+import event23 from "../assets/tabletennis.jpg";
+import event24 from "../assets/tennis.jpg";
+import event25 from "../assets/tugofwar.jpg";
+import event26 from "../assets/volleyball.jpg";
+import { FaRunning } from "react-icons/fa";
+import { GiJumpAcross } from "react-icons/gi";
+import { GiThrowingBall } from "react-icons/gi";
+import { PiPersonSimpleThrow } from "react-icons/pi";
+import { GiArcheryTarget } from "react-icons/gi";
+import { GiShuttlecock } from "react-icons/gi";
+import { TbPlayBasketball } from "react-icons/tb";
+import { PiBoxingGloveBold } from "react-icons/pi";
+import { FaChess } from "react-icons/fa";
+import { MdSportsCricket } from "react-icons/md";
+import { IoFootballSharp } from "react-icons/io5";
+import { MdOutlineSportsKabaddi } from "react-icons/md";
+import { TbKarate } from "react-icons/tb";
+import { LiaRunningSolid } from "react-icons/lia";
+import { FaGun } from "react-icons/fa6";
+import { MdOutlineSportsTennis } from "react-icons/md";
+import { FaPersonSwimming } from "react-icons/fa6";
+import { FaTableTennis } from "react-icons/fa";
+import { GiTennisRacket } from "react-icons/gi";
+import { GiVolleyballBall } from "react-icons/gi";
 
 const Events = () => {
   return (
@@ -15,7 +61,7 @@ const Events = () => {
             <div className="course-card">
               <figure className="card-banner img-holder">
                 <img
-                  src="./assets/images/courses-1.jpg"
+                  src={event1}
                   width="350"
                   height="300"
                   loading="lazy"
@@ -26,28 +72,26 @@ const Events = () => {
 
               <div className="card-content">
                 <data className="card-price" value="98">
-                  $98
+                  <FaRunning />
                 </data>
 
-                <p className="card-author">
+                {/* <p className="card-author">
                   <a href="#" className="card-link">
                     <span>Ryan Patterson</span>
                   </a>
-                </p>
+                </p> */}
 
                 <h3 className="h3">
-                  <a href="#" className="card-title">
-                    100m
-                  </a>
+                  <p className="card-title">100m</p>
                 </h3>
 
                 <ul className="card-meta-list">
                   <li className="card-meta-item">
-                    <time datetime="PT8H20M">08 hr 20 mins</time>
+                    <time datetime="PT8H20M">Speed</time>
                   </li>
 
                   <li className="card-meta-item">
-                    <p className="card-meta-text">28 Lectures</p>
+                    <p className="card-meta-text">Power</p>
                   </li>
                 </ul>
               </div>
@@ -58,7 +102,7 @@ const Events = () => {
             <div className="course-card">
               <figure className="card-banner img-holder">
                 <img
-                  src="./assets/images/courses-2.jpg"
+                  src={event2}
                   width="350"
                   height="300"
                   loading="lazy"
@@ -69,28 +113,26 @@ const Events = () => {
 
               <div className="card-content">
                 <data className="card-price" value="72">
-                  $72
+                  <FaRunning />
                 </data>
 
-                <p className="card-author">
+                {/* <p className="card-author">
                   <a href="#" className="card-link">
                     <span>Dr. Pankaj Dubey</span>
                   </a>
-                </p>
+                </p> */}
 
                 <h3 className="h3">
-                  <a href="#" className="card-title">
-                    200m
-                  </a>
+                  <p className="card-title">200m</p>
                 </h3>
 
                 <ul className="card-meta-list">
                   <li className="card-meta-item">
-                    <time datetime="PT9H25M">09 hr 25 mins</time>
+                    <time datetime="PT9H25M">Endurance</time>
                   </li>
 
                   <li className="card-meta-item">
-                    <p className="card-meta-text">16 Lectures</p>
+                    <p className="card-meta-text">Speed</p>
                   </li>
                 </ul>
               </div>
@@ -101,7 +143,7 @@ const Events = () => {
             <div className="course-card">
               <figure className="card-banner img-holder">
                 <img
-                  src="./assets/images/courses-3.jpg"
+                  src={event3}
                   width="350"
                   height="300"
                   loading="lazy"
@@ -112,28 +154,26 @@ const Events = () => {
 
               <div className="card-content">
                 <data className="card-price" value="68">
-                  $68
+                  <FaRunning />
                 </data>
 
-                <p className="card-author">
+                {/* <p className="card-author">
                   <a href="#" class="card-link">
                     <>Dr. Udham Singh</>
                   </a>
-                </p>
+                </p> */}
 
                 <h3 className="h3">
-                  <a href="#" className="card-title">
-                    400m
-                  </a>
+                  <p className="card-title">400m</p>
                 </h3>
 
                 <ul className="card-meta-list">
                   <li className="card-meta-item">
-                    <time datetime="PT3H38M">03 hr 38 mins</time>
+                    <time datetime="PT3H38M">Stamina</time>
                   </li>
 
                   <li className="card-meta-item">
-                    <p className="card-meta-text">18 Lectures</p>
+                    <p className="card-meta-text">Oxygenation</p>
                   </li>
                 </ul>
               </div>
@@ -144,7 +184,7 @@ const Events = () => {
             <div className="course-card">
               <figure className="card-banner img-holder">
                 <img
-                  src="./assets/images/courses-4.jpg"
+                  src={event4}
                   width="350"
                   height="300"
                   loading="lazy"
@@ -155,28 +195,26 @@ const Events = () => {
 
               <div className="card-content">
                 <data className="card-price" value="98">
-                  $98
+                  <FaRunning />
                 </data>
 
-                <p className="card-author">
+                {/* <p className="card-author">
                   <a href="#" className="card-link">
                     <span>Dr. Pankaj Pandey</span>
                   </a>
-                </p>
+                </p> */}
 
                 <h3 className="h3">
-                  <a href="#" className="card-title">
-                    100X400m
-                  </a>
+                  <p className="card-title">100X400m</p>
                 </h3>
 
                 <ul className="card-meta-list">
                   <li className="card-meta-item">
-                    <time datetime="PT2H16M">02 hr 16 mins</time>
+                    <time datetime="PT2H16M">Coordination</time>
                   </li>
 
                   <li className="card-meta-item">
-                    <p className="card-meta-text">14 Lectures</p>
+                    <p className="card-meta-text">Efficiency</p>
                   </li>
                 </ul>
               </div>
@@ -187,7 +225,7 @@ const Events = () => {
             <div className="course-card">
               <figure className="card-banner img-holder">
                 <img
-                  src="./assets/images/courses-5.jpg"
+                  src={event5}
                   width="350"
                   height="300"
                   loading="lazy"
@@ -198,28 +236,26 @@ const Events = () => {
 
               <div className="card-content">
                 <data className="card-price" value="72">
-                  $72
+                  <FaRunning />
                 </data>
 
-                <p className="card-author">
+                {/* <p className="card-author">
                   <a href="#" className="card-link">
                     <span>Mr. Animesh Gupta</span>
                   </a>
-                </p>
+                </p> */}
 
                 <h3 className="h3">
-                  <a href="#" className="card-title">
-                    110m
-                  </a>
+                  <p className="card-title">110m</p>
                 </h3>
 
                 <ul className="card-meta-list">
                   <li className="card-meta-item">
-                    <time datetime="PT6H12M">06 hr 12 mins</time>
+                    <time datetime="PT6H12M">Agility</time>
                   </li>
 
                   <li className="card-meta-item">
-                    <p className="card-meta-text">35 Lectures</p>
+                    <p className="card-meta-text">Reflexes</p>
                   </li>
                 </ul>
               </div>
@@ -230,7 +266,7 @@ const Events = () => {
             <div className="course-card">
               <figure className="card-banner img-holder">
                 <img
-                  src="./assets/images/courses-6.jpg"
+                  src={event6}
                   width="350"
                   height="300"
                   loading="lazy"
@@ -241,28 +277,26 @@ const Events = () => {
 
               <div className="card-content">
                 <data className="card-price" value="68">
-                  $68
+                  <GiJumpAcross />
                 </data>
 
-                <p className="card-author">
+                {/* <p className="card-author">
                   <a href="#" className="card-link">
                     <span>Selina Benton</span>
                   </a>
-                </p>
+                </p> */}
 
                 <h3 className="h3">
-                  <a href="#" className="card-title">
-                    Long Jump
-                  </a>
+                  <p className="card-title">Long Jump</p>
                 </h3>
 
                 <ul className="card-meta-list">
                   <li className="card-meta-item">
-                    <time datetime="PT9H34M">09 hr 34 mins</time>
+                    <time datetime="PT9H34M">Power</time>
                   </li>
 
                   <li className="card-meta-item">
-                    <p className="card-meta-text">28 Lectures</p>
+                    <p className="card-meta-text">Explosiveness</p>
                   </li>
                 </ul>
               </div>
@@ -273,7 +307,7 @@ const Events = () => {
             <div className="course-card">
               <figure className="card-banner img-holder">
                 <img
-                  src="./assets/images/courses-6.jpg"
+                  src={event7}
                   width="350"
                   height="300"
                   loading="lazy"
@@ -284,28 +318,26 @@ const Events = () => {
 
               <div className="card-content">
                 <data className="card-price" value="68">
-                  $68
+                  <GiJumpAcross />
                 </data>
 
-                <p className="card-author">
+                {/* <p className="card-author">
                   <a href="#" className="card-link">
                     <span>Mr. Shubham</span>
                   </a>
-                </p>
+                </p> */}
 
                 <h3 className="h3">
-                  <a href="#" className="card-title">
-                    Tripple Jump
-                  </a>
+                  <p className="card-title">Tripple Jump</p>
                 </h3>
 
                 <ul className="card-meta-list">
                   <li className="card-meta-item">
-                    <time datetime="PT9H34M">09 hr 34 mins</time>
+                    <time datetime="PT9H34M">Elasticity</time>
                   </li>
 
                   <li className="card-meta-item">
-                    <p className="card-meta-text">28 Lectures</p>
+                    <p className="card-meta-text">Strength</p>
                   </li>
                 </ul>
               </div>
@@ -316,7 +348,7 @@ const Events = () => {
             <div className="course-card">
               <figure className="card-banner img-holder">
                 <img
-                  src="./assets/images/courses-6.jpg"
+                  src={event8}
                   width="350"
                   height="300"
                   loading="lazy"
@@ -327,28 +359,26 @@ const Events = () => {
 
               <div className="card-content">
                 <data className="card-price" value="68">
-                  $68
+                  <GiThrowingBall />
                 </data>
 
-                <p className="card-author">
+                {/* <p className="card-author">
                   <a href="#" className="card-link">
                     <span>Mr. Shubham</span>
                   </a>
-                </p>
+                </p> */}
 
                 <h3 className="h3">
-                  <a href="#" className="card-title">
-                    Javelin Throw
-                  </a>
+                  <p className="card-title">Javelin Throw</p>
                 </h3>
 
                 <ul className="card-meta-list">
                   <li className="card-meta-item">
-                    <time datetime="PT9H34M">09 hr 34 mins</time>
+                    <time datetime="PT9H34M">Strength</time>
                   </li>
 
                   <li className="card-meta-item">
-                    <p className="card-meta-text">28 Lectures</p>
+                    <p className="card-meta-text">Precision</p>
                   </li>
                 </ul>
               </div>
@@ -359,7 +389,7 @@ const Events = () => {
             <div className="course-card">
               <figure className="card-banner img-holder">
                 <img
-                  src="./assets/images/courses-6.jpg"
+                  src={event9}
                   width="350"
                   height="300"
                   loading="lazy"
@@ -370,28 +400,26 @@ const Events = () => {
 
               <div className="card-content">
                 <data className="card-price" value="68">
-                  $68
+                  <PiPersonSimpleThrow />
                 </data>
 
-                <p className="card-author">
+                {/* <p className="card-author">
                   <a href="#" className="card-link">
                     <span>Mr. Shubham</span>
                   </a>
-                </p>
+                </p> */}
 
                 <h3 className="h3">
-                  <a href="#" className="card-title">
-                    Discus Throw
-                  </a>
+                  <p className="card-title">Discus Throw</p>
                 </h3>
 
                 <ul className="card-meta-list">
                   <li className="card-meta-item">
-                    <time datetime="PT9H34M">09 hr 34 mins</time>
+                    <time datetime="PT9H34M">Power</time>
                   </li>
 
                   <li className="card-meta-item">
-                    <p className="card-meta-text">28 Lectures</p>
+                    <p className="card-meta-text">Stability</p>
                   </li>
                 </ul>
               </div>
@@ -402,7 +430,7 @@ const Events = () => {
             <div className="course-card">
               <figure className="card-banner img-holder">
                 <img
-                  src="./assets/images/courses-6.jpg"
+                  src={event10}
                   width="350"
                   height="300"
                   loading="lazy"
@@ -413,28 +441,26 @@ const Events = () => {
 
               <div className="card-content">
                 <data className="card-price" value="68">
-                  $68
+                  <GiArcheryTarget />
                 </data>
 
-                <p className="card-author">
+                {/* <p className="card-author">
                   <a href="#" className="card-link">
                     <span>Mr. Shubham</span>
                   </a>
-                </p>
+                </p> */}
 
                 <h3 className="h3">
-                  <a href="#" className="card-title">
-                    Archery
-                  </a>
+                  <p className="card-title">Archery</p>
                 </h3>
 
                 <ul className="card-meta-list">
                   <li className="card-meta-item">
-                    <time datetime="PT9H34M">09 hr 34 mins</time>
+                    <time datetime="PT9H34M">Focus</time>
                   </li>
 
                   <li className="card-meta-item">
-                    <p className="card-meta-text">28 Lectures</p>
+                    <p className="card-meta-text">Precision</p>
                   </li>
                 </ul>
               </div>
@@ -445,7 +471,7 @@ const Events = () => {
             <div className="course-card">
               <figure className="card-banner img-holder">
                 <img
-                  src="./assets/images/courses-6.jpg"
+                  src={event11}
                   width="350"
                   height="300"
                   loading="lazy"
@@ -456,28 +482,26 @@ const Events = () => {
 
               <div className="card-content">
                 <data className="card-price" value="68">
-                  $68
+                  <GiShuttlecock />
                 </data>
 
-                <p className="card-author">
+                {/* <p className="card-author">
                   <a href="#" className="card-link">
                     <span>Mr. Shubham</span>
                   </a>
-                </p>
+                </p> */}
 
                 <h3 className="h3">
-                  <a href="#" className="card-title">
-                    Badminton
-                  </a>
+                  <p className="card-title">Badminton</p>
                 </h3>
 
                 <ul className="card-meta-list">
                   <li className="card-meta-item">
-                    <time datetime="PT9H34M">09 hr 34 mins</time>
+                    <time datetime="PT9H34M">Agility</time>
                   </li>
 
                   <li className="card-meta-item">
-                    <p className="card-meta-text">28 Lectures</p>
+                    <p className="card-meta-text">Endurance</p>
                   </li>
                 </ul>
               </div>
@@ -488,7 +512,7 @@ const Events = () => {
             <div className="course-card">
               <figure className="card-banner img-holder">
                 <img
-                  src="./assets/images/courses-6.jpg"
+                  src={event12}
                   width="350"
                   height="300"
                   loading="lazy"
@@ -499,28 +523,26 @@ const Events = () => {
 
               <div className="card-content">
                 <data className="card-price" value="68">
-                  $68
+                  <TbPlayBasketball />
                 </data>
 
-                <p className="card-author">
+                {/* <p className="card-author">
                   <a href="#" className="card-link">
                     <span>Mr. Shubham</span>
                   </a>
-                </p>
+                </p> */}
 
                 <h3 className="h3">
-                  <a href="#" className="card-title">
-                    Basketball
-                  </a>
+                  <p className="card-title">Basketball</p>
                 </h3>
 
                 <ul className="card-meta-list">
                   <li className="card-meta-item">
-                    <time datetime="PT9H34M">09 hr 34 mins</time>
+                    <time datetime="PT9H34M">Stamina</time>
                   </li>
 
                   <li className="card-meta-item">
-                    <p className="card-meta-text">28 Lectures</p>
+                    <p className="card-meta-text">Agility</p>
                   </li>
                 </ul>
               </div>
@@ -531,7 +553,7 @@ const Events = () => {
             <div className="course-card">
               <figure className="card-banner img-holder">
                 <img
-                  src="./assets/images/courses-6.jpg"
+                  src={event13}
                   width="350"
                   height="300"
                   loading="lazy"
@@ -542,28 +564,26 @@ const Events = () => {
 
               <div className="card-content">
                 <data className="card-price" value="68">
-                  $68
+                  <PiBoxingGloveBold />
                 </data>
 
-                <p className="card-author">
+                {/* <p className="card-author">
                   <a href="#" className="card-link">
                     <span>Mr. Shubham</span>
                   </a>
-                </p>
+                </p> */}
 
                 <h3 className="h3">
-                  <a href="#" className="card-title">
-                    Boxing
-                  </a>
+                  <p className="card-title">Boxing</p>
                 </h3>
 
                 <ul className="card-meta-list">
                   <li className="card-meta-item">
-                    <time datetime="PT9H34M">09 hr 34 mins</time>
+                    <time datetime="PT9H34M">Strength</time>
                   </li>
 
                   <li className="card-meta-item">
-                    <p className="card-meta-text">28 Lectures</p>
+                    <p className="card-meta-text">Endurance</p>
                   </li>
                 </ul>
               </div>
@@ -574,7 +594,7 @@ const Events = () => {
             <div className="course-card">
               <figure className="card-banner img-holder">
                 <img
-                  src="./assets/images/courses-6.jpg"
+                  src={event14}
                   width="350"
                   height="300"
                   loading="lazy"
@@ -585,28 +605,26 @@ const Events = () => {
 
               <div className="card-content">
                 <data className="card-price" value="68">
-                  $68
+                  <FaChess />
                 </data>
 
-                <p className="card-author">
+                {/* <p className="card-author">
                   <a href="#" className="card-link">
                     <span>Mr. Shubham</span>
                   </a>
-                </p>
+                </p> */}
 
                 <h3 className="h3">
-                  <a href="#" className="card-title">
-                    Chess
-                  </a>
+                  <p className="card-title">Chess</p>
                 </h3>
 
                 <ul className="card-meta-list">
                   <li className="card-meta-item">
-                    <time datetime="PT9H34M">09 hr 34 mins</time>
+                    <time datetime="PT9H34M">Focus</time>
                   </li>
 
                   <li className="card-meta-item">
-                    <p className="card-meta-text">28 Lectures</p>
+                    <p className="card-meta-text">Strategy</p>
                   </li>
                 </ul>
               </div>
@@ -617,7 +635,7 @@ const Events = () => {
             <div className="course-card">
               <figure className="card-banner img-holder">
                 <img
-                  src="./assets/images/courses-6.jpg"
+                  src={event15}
                   width="350"
                   height="300"
                   loading="lazy"
@@ -628,28 +646,26 @@ const Events = () => {
 
               <div className="card-content">
                 <data className="card-price" value="68">
-                  $68
+                  <MdSportsCricket />
                 </data>
 
-                <p className="card-author">
+                {/* <p className="card-author">
                   <a href="#" className="card-link">
                     <span>Mr. Shubham</span>
                   </a>
-                </p>
+                </p> */}
 
                 <h3 className="h3">
-                  <a href="#" className="card-title">
-                    Cricket
-                  </a>
+                  <p className="card-title">Cricket</p>
                 </h3>
 
                 <ul className="card-meta-list">
                   <li className="card-meta-item">
-                    <time datetime="PT9H34M">09 hr 34 mins</time>
+                    <time datetime="PT9H34M">Agility</time>
                   </li>
 
                   <li className="card-meta-item">
-                    <p className="card-meta-text">28 Lectures</p>
+                    <p className="card-meta-text">Reflexes</p>
                   </li>
                 </ul>
               </div>
@@ -660,7 +676,7 @@ const Events = () => {
             <div className="course-card">
               <figure className="card-banner img-holder">
                 <img
-                  src="./assets/images/courses-6.jpg"
+                  src={event16}
                   width="350"
                   height="300"
                   loading="lazy"
@@ -671,28 +687,26 @@ const Events = () => {
 
               <div className="card-content">
                 <data className="card-price" value="68">
-                  $68
+                  <IoFootballSharp />
                 </data>
 
-                <p className="card-author">
+                {/* <p className="card-author">
                   <a href="#" className="card-link">
                     <span>Mr. Shubham</span>
                   </a>
-                </p>
+                </p> */}
 
                 <h3 className="h3">
-                  <a href="#" className="card-title">
-                    Football
-                  </a>
+                  <p className="card-title">Football</p>
                 </h3>
 
                 <ul className="card-meta-list">
                   <li className="card-meta-item">
-                    <time datetime="PT9H34M">09 hr 34 mins</time>
+                    <time datetime="PT9H34M">Endurance</time>
                   </li>
 
                   <li className="card-meta-item">
-                    <p className="card-meta-text">28 Lectures</p>
+                    <p className="card-meta-text">Agility</p>
                   </li>
                 </ul>
               </div>
@@ -703,7 +717,7 @@ const Events = () => {
             <div className="course-card">
               <figure className="card-banner img-holder">
                 <img
-                  src="./assets/images/courses-6.jpg"
+                  src={event17}
                   width="350"
                   height="300"
                   loading="lazy"
@@ -714,28 +728,26 @@ const Events = () => {
 
               <div className="card-content">
                 <data className="card-price" value="68">
-                  $68
+                  <MdOutlineSportsKabaddi />
                 </data>
 
-                <p className="card-author">
+                {/* <p className="card-author">
                   <a href="#" className="card-link">
                     <span>Mr. Shubham</span>
                   </a>
-                </p>
+                </p> */}
 
                 <h3 className="h3">
-                  <a href="#" className="card-title">
-                    Kabaddi
-                  </a>
+                  <p className="card-title">Kabaddi</p>
                 </h3>
 
                 <ul className="card-meta-list">
                   <li className="card-meta-item">
-                    <time datetime="PT9H34M">09 hr 34 mins</time>
+                    <time datetime="PT9H34M">Power</time>
                   </li>
 
                   <li className="card-meta-item">
-                    <p className="card-meta-text">28 Lectures</p>
+                    <p className="card-meta-text">Agility</p>
                   </li>
                 </ul>
               </div>
@@ -746,7 +758,7 @@ const Events = () => {
             <div className="course-card">
               <figure className="card-banner img-holder">
                 <img
-                  src="./assets/images/courses-6.jpg"
+                  src={event18}
                   width="350"
                   height="300"
                   loading="lazy"
@@ -757,28 +769,26 @@ const Events = () => {
 
               <div className="card-content">
                 <data className="card-price" value="68">
-                  $68
+                  <TbKarate />
                 </data>
 
-                <p className="card-author">
+                {/* <p className="card-author">
                   <a href="#" className="card-link">
                     <span>Mr. Shubham</span>
                   </a>
-                </p>
+                </p> */}
 
                 <h3 className="h3">
-                  <a href="#" className="card-title">
-                    Karate
-                  </a>
+                  <p className="card-title">Karate</p>
                 </h3>
 
                 <ul className="card-meta-list">
                   <li className="card-meta-item">
-                    <time datetime="PT9H34M">09 hr 34 mins</time>
+                    <time datetime="PT9H34M">Strength</time>
                   </li>
 
                   <li className="card-meta-item">
-                    <p className="card-meta-text">28 Lectures</p>
+                    <p className="card-meta-text">Power</p>
                   </li>
                 </ul>
               </div>
@@ -789,7 +799,7 @@ const Events = () => {
             <div className="course-card">
               <figure className="card-banner img-holder">
                 <img
-                  src="./assets/images/courses-6.jpg"
+                  src={event19}
                   width="350"
                   height="300"
                   loading="lazy"
@@ -800,28 +810,26 @@ const Events = () => {
 
               <div className="card-content">
                 <data className="card-price" value="68">
-                  $68
+                  <LiaRunningSolid />
                 </data>
 
-                <p className="card-author">
+                {/* <p className="card-author">
                   <a href="#" className="card-link">
                     <span>Mr. Shubham</span>
                   </a>
-                </p>
+                </p> */}
 
                 <h3 className="h3">
-                  <a href="#" className="card-title">
-                    Kho-Kho
-                  </a>
+                  <p className="card-title">Kho-Kho</p>
                 </h3>
 
                 <ul className="card-meta-list">
                   <li className="card-meta-item">
-                    <time datetime="PT9H34M">09 hr 34 mins</time>
+                    <time datetime="PT9H34M">Agility</time>
                   </li>
 
                   <li className="card-meta-item">
-                    <p className="card-meta-text">28 Lectures</p>
+                    <p className="card-meta-text">Speed</p>
                   </li>
                 </ul>
               </div>
@@ -832,7 +840,7 @@ const Events = () => {
             <div className="course-card">
               <figure className="card-banner img-holder">
                 <img
-                  src="./assets/images/courses-6.jpg"
+                  src={event20}
                   width="350"
                   height="300"
                   loading="lazy"
@@ -843,28 +851,26 @@ const Events = () => {
 
               <div className="card-content">
                 <data className="card-price" value="68">
-                  $68
+                  <FaGun />
                 </data>
 
-                <p className="card-author">
+                {/* <p className="card-author">
                   <a href="#" className="card-link">
                     <span>Mr. Shubham</span>
                   </a>
-                </p>
+                </p> */}
 
                 <h3 className="h3">
-                  <a href="#" className="card-title">
-                    Shooting
-                  </a>
+                  <p className="card-title">Shooting</p>
                 </h3>
 
                 <ul className="card-meta-list">
                   <li className="card-meta-item">
-                    <time datetime="PT9H34M">09 hr 34 mins</time>
+                    <time datetime="PT9H34M">Focus</time>
                   </li>
 
                   <li className="card-meta-item">
-                    <p className="card-meta-text">28 Lectures</p>
+                    <p className="card-meta-text">Precision</p>
                   </li>
                 </ul>
               </div>
@@ -875,7 +881,7 @@ const Events = () => {
             <div className="course-card">
               <figure className="card-banner img-holder">
                 <img
-                  src="./assets/images/courses-6.jpg"
+                  src={event21}
                   width="350"
                   height="300"
                   loading="lazy"
@@ -886,28 +892,26 @@ const Events = () => {
 
               <div className="card-content">
                 <data className="card-price" value="68">
-                  $68
+                  <MdOutlineSportsTennis />
                 </data>
 
-                <p className="card-author">
+                {/* <p className="card-author">
                   <a href="#" className="card-link">
                     <span>Mr. Shubham</span>
                   </a>
-                </p>
+                </p> */}
 
                 <h3 className="h3">
-                  <a href="#" className="card-title">
-                    Squash
-                  </a>
+                  <p className="card-title">Squash</p>
                 </h3>
 
                 <ul className="card-meta-list">
                   <li className="card-meta-item">
-                    <time datetime="PT9H34M">09 hr 34 mins</time>
+                    <time datetime="PT9H34M">Endurance</time>
                   </li>
 
                   <li className="card-meta-item">
-                    <p className="card-meta-text">28 Lectures</p>
+                    <p className="card-meta-text">Agility</p>
                   </li>
                 </ul>
               </div>
@@ -918,7 +922,7 @@ const Events = () => {
             <div className="course-card">
               <figure className="card-banner img-holder">
                 <img
-                  src="./assets/images/courses-6.jpg"
+                  src={event22}
                   width="350"
                   height="300"
                   loading="lazy"
@@ -929,28 +933,26 @@ const Events = () => {
 
               <div className="card-content">
                 <data className="card-price" value="68">
-                  $68
+                  <FaPersonSwimming />
                 </data>
 
-                <p className="card-author">
+                {/* <p className="card-author">
                   <a href="#" className="card-link">
                     <span>Mr. Shubham</span>
                   </a>
-                </p>
+                </p> */}
 
                 <h3 className="h3">
-                  <a href="#" className="card-title">
-                    Swimming
-                  </a>
+                  <p className="card-title">Swimming</p>
                 </h3>
 
                 <ul className="card-meta-list">
                   <li className="card-meta-item">
-                    <time datetime="PT9H34M">09 hr 34 mins</time>
+                    <time datetime="PT9H34M">Stamina</time>
                   </li>
 
                   <li className="card-meta-item">
-                    <p className="card-meta-text">28 Lectures</p>
+                    <p className="card-meta-text">Endurance</p>
                   </li>
                 </ul>
               </div>
@@ -961,7 +963,7 @@ const Events = () => {
             <div className="course-card">
               <figure className="card-banner img-holder">
                 <img
-                  src="./assets/images/courses-6.jpg"
+                  src={event23}
                   width="350"
                   height="300"
                   loading="lazy"
@@ -972,28 +974,26 @@ const Events = () => {
 
               <div className="card-content">
                 <data className="card-price" value="68">
-                  $68
+                  <FaTableTennis />
                 </data>
 
-                <p className="card-author">
+                {/* <p className="card-author">
                   <a href="#" className="card-link">
                     <span>Mr. Shubham</span>
                   </a>
-                </p>
+                </p> */}
 
                 <h3 className="h3">
-                  <a href="#" className="card-title">
-                    Table Tennis
-                  </a>
+                  <p className="card-title">Table Tennis</p>
                 </h3>
 
                 <ul className="card-meta-list">
                   <li className="card-meta-item">
-                    <time datetime="PT9H34M">09 hr 34 mins</time>
+                    <time datetime="PT9H34M">Reflexes</time>
                   </li>
 
                   <li className="card-meta-item">
-                    <p className="card-meta-text">28 Lectures</p>
+                    <p className="card-meta-text">Agility</p>
                   </li>
                 </ul>
               </div>
@@ -1004,7 +1004,7 @@ const Events = () => {
             <div className="course-card">
               <figure className="card-banner img-holder">
                 <img
-                  src="./assets/images/courses-6.jpg"
+                  src={event24}
                   width="350"
                   height="300"
                   loading="lazy"
@@ -1015,28 +1015,26 @@ const Events = () => {
 
               <div className="card-content">
                 <data className="card-price" value="68">
-                  $68
+                  <GiTennisRacket />
                 </data>
 
-                <p className="card-author">
+                {/* <p className="card-author">
                   <a href="#" className="card-link">
                     <span>Mr. Shubham</span>
                   </a>
-                </p>
+                </p> */}
 
                 <h3 className="h3">
-                  <a href="#" className="card-title">
-                    Tennis
-                  </a>
+                  <p className="card-title">Tennis</p>
                 </h3>
 
                 <ul className="card-meta-list">
                   <li className="card-meta-item">
-                    <time datetime="PT9H34M">09 hr 34 mins</time>
+                    <time datetime="PT9H34M">Stamina</time>
                   </li>
 
                   <li className="card-meta-item">
-                    <p className="card-meta-text">28 Lectures</p>
+                    <p className="card-meta-text">Speed</p>
                   </li>
                 </ul>
               </div>
@@ -1047,7 +1045,7 @@ const Events = () => {
             <div className="course-card">
               <figure className="card-banner img-holder">
                 <img
-                  src="./assets/images/courses-6.jpg"
+                  src={event25}
                   width="350"
                   height="300"
                   loading="lazy"
@@ -1058,28 +1056,26 @@ const Events = () => {
 
               <div className="card-content">
                 <data className="card-price" value="68">
-                  $68
+                  <MdOutlineSportsKabaddi />
                 </data>
 
-                <p className="card-author">
+                {/* <p className="card-author">
                   <a href="#" className="card-link">
                     <span>Mr. Shubham</span>
                   </a>
-                </p>
+                </p> */}
 
                 <h3 className="h3">
-                  <a href="#" className="card-title">
-                    Tug of War
-                  </a>
+                  <p className="card-title">Tug of War</p>
                 </h3>
 
                 <ul className="card-meta-list">
                   <li className="card-meta-item">
-                    <time datetime="PT9H34M">09 hr 34 mins</time>
+                    <time datetime="PT9H34M">Strength</time>
                   </li>
 
                   <li className="card-meta-item">
-                    <p className="card-meta-text">28 Lectures</p>
+                    <p className="card-meta-text">Power</p>
                   </li>
                 </ul>
               </div>
@@ -1090,7 +1086,7 @@ const Events = () => {
             <div className="course-card">
               <figure className="card-banner img-holder">
                 <img
-                  src="./assets/images/courses-6.jpg"
+                  src={event26}
                   width="350"
                   height="300"
                   loading="lazy"
@@ -1101,28 +1097,26 @@ const Events = () => {
 
               <div className="card-content">
                 <data className="card-price" value="68">
-                  $68
+                  <GiVolleyballBall />
                 </data>
 
-                <p className="card-author">
+                {/* <p className="card-author">
                   <a href="#" className="card-link">
                     <span>Mr. Shubham</span>
                   </a>
-                </p>
+                </p> */}
 
                 <h3 className="h3">
-                  <a href="#" className="card-title">
-                    Volleyball
-                  </a>
+                  <p className="card-title">Volleyball</p>
                 </h3>
 
                 <ul className="card-meta-list">
                   <li className="card-meta-item">
-                    <time datetime="PT9H34M">09 hr 34 mins</time>
+                    <time datetime="PT9H34M">Agility</time>
                   </li>
 
                   <li className="card-meta-item">
-                    <p className="card-meta-text">28 Lectures</p>
+                    <p className="card-meta-text">Power</p>
                   </li>
                 </ul>
               </div>
